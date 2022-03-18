@@ -1,0 +1,15 @@
+Why not python?
+
+Python is a great lang, but I don't prefer using it. 
+
+def calc(x,y):
+    return x*y
+    
+print(calc(2,3))   # prints 6
+print(calc("2",3)) # prints 222
+
+When things got complex, the risk of malfunction is getting higher and higher.
+Script languages like PHP or JS can return different types from JSON since restful is not a contract-based communication. They also don't check the types. 
+For example, a version change (in the DB server, HTTP server, etc.) procedure may cause a malfunction. 
+
+Imagine using that in a payment system, or a robotic system. 
