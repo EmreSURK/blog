@@ -1,0 +1,9 @@
+Maintaining apps for 10+ years
+1. Let code document itself
+2. Put comments for business logic
+3. Drop notes to README for important stuff, like enums
+4. Keep all versions in their branches 
+5. Fix all 3.party versions and backup them 
+6. Make flows linear, put a splash
+7. Make compiler strong, define params for navigating 
+8. Version design files and backup them 
