@@ -2,3 +2,4 @@ Late verification emails.
 Verification emails marked as spam, even for gmail.
 No callback for onUserVerified. 
 No dashboard for running query in Firestore.
+Deleting everything by mistake is so possible
