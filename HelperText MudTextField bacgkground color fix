@@ -1,0 +1,31 @@
+HelperText of MudTextField has a bug when you have a non-white background. Small fix.
+
+@code{
+
+    MudTheme MyCustomTheme = new MudTheme()
+    {
+        Palette = new PaletteLight()
+        {
+            Primary = Colors.DeepOrange.Darken3,
+            Background = Colors.BlueGrey.Lighten5,
+            // Primary = Colors.Blue.Default,
+            // Secondary = Colors.Green.Accent4,
+            // AppbarBackground = Colors.Red.Default
+        },
+        
+        PaletteDark = new PaletteDark()
+        {
+            Primary = Colors.Blue.Lighten1
+        },
+        LayoutProperties = new LayoutProperties()
+        {
+            DefaultBorderRadius = "18px",
+        },
+    };
+}
+    
+<style>
+    .mud-input-label {
+        background-color: #ECEFF1 ;
+    }
+</style>
